@@ -1,0 +1,35 @@
+/* Links */
+a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.cta {
+  font-size: 1.5em;
+  background-color: hsl(0, 0%, 100%, 0.1);
+  backdrop-filter: blur(1rem);
+  padding: 10px 50px;
+  border: #fff 0.1em solid;
+  border-radius: 2em;
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+a:hover {
+  text-decoration: underline;
+}
+
+.cta:hover {
+  font-size: 1.5em;
+  color: #041a59;
+  background-color: #fff;
+  padding: 10px 50px;
+  border: #fff 0.1em solid;
+  border-radius: 2em;
+  transition: all 0.3s ease;
+}
