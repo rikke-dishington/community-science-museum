@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="Learn more about the cosmology exhibition at the Community Science Museum"/>
     <title>Community Science Museum | Cosmology</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/cosmology.css" rel="stylesheet"/>
@@ -14,12 +15,11 @@
     <header>
         <div class="logo">
           <a href="index.html"><img src="images/logo.png" alt="Community Science Museum Logo" class="logo_img"></a>
-          <p>Community Science Museum</p>
         </div>
       <nav>
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="#">Explore</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#" class="active">Explore</a></li>
           <li><a href="events.html">Events</a></li>
           <li><a href="visit.html">Visit</a></li>
           <li><a href="#"><i class="fa fa-search"></i></a></li>
@@ -27,7 +27,7 @@
       </nav>
     </header>
     <main>
-        <section>
+        <section class="section1">
             <div>
                 <h1>Cosmology</h1>
                 <p>Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and what we can see and know about the universe around us.</p>
@@ -38,62 +38,71 @@
                 <img src="images/cosmology_large.jpg" alt="Planetarium"/>
             </div>
         </section>
-        <section>
+        <section class="section2">
             <h2>Favorite destinations</h2>
-            <div>
-                <img src="images/cosmology_long1.png" alt="Earth"/>
-                <h5>Earth</h5>
+            <div class="card1">
+                <div class="card_content">
+                <h4>Earth</h4>
                 <p>Planet Earth, our home, is the third planet from the sun. While scientists continue to hunt for clues of life beyond Earth, our home planet remains the only place in the universe where we've ever identified living organisms.</p>
+                </div>
             </div>
-            <div>
-                <img src="images/cosmology_long2.png" alt="Mars"/>
-                <h5>Mars</h5>
+            <div class="card2">
+                <div class="card_content">
+                <h4>Mars</h4>
                 <p>Mars, who is also known as the 'Red Planet' due to its beautiful, strong red colour. Mars is the fourth planet from the sun in our solar system. It can get pretty cold on Mars, since it is so far away from the sun. At the equator, temperatures can reach 20°C, but at its poles it can get to as low as -140°C. Brr!</p>
+                </div>
             </div>
-            <div>
-                <img src="images/cosmology_long3.png" alt="Neptune"/>
-                <h5>Neptune</h5>
+            <div class="card3">
+                <div class="card_content">
+                <h4>Neptune</h4>
                 <p>Neptune is the eighth planet from the Sun, making it the most distant in the solar system. The reason Neptune is blue is due to the presence of a specific gas named methane. Neptune is about four times wider than Earth. If Earth were a large apple, Neptune would be the size of a basketball.</p>
+                </div>
             </div>
         </section>
-        <section>
+        <section class="section3">
             <h2>Explore</h2>
-            <img src="images/cosmology_long4.jpg" alt="Neptune"/>
-            <img src="images/cosmology_small1.jpg" alt="Neptune"/>
-            <img src="images/cosmology_small2.jpg" alt="Neptune"/>
-            <img src="images/cosmology_small3.jpg" alt="Neptune"/>
-            <img src="images/cosmology_small4.jpg" alt="Neptune"/>
+            <img src="images/cosmology_long4.jpg" alt="Neptune" id="img1"/>
+            <img src="images/cosmology_small1.jpg" alt="Neptune" id="img2"/>
+            <img src="images/cosmology_small2.jpg" alt="Neptune" id="img3"/>
+            <img src="images/cosmology_small3.jpg" alt="Neptune" id="img4"/>
+            <img src="images/cosmology_small4.jpg" alt="Neptune" id="img5"/>
         </section>
-        <section>
+        <section class="events_section">
             <h2>Events</h2>
-            <div>
+            <div class="events">
                 <img src="images/cosmology_small5.jpg" alt="Dinosaur skeleton"/>
-                <h5>The world through a microscope</h5>
-                <p>Feb 2, 2022</p>
-                <p>Ever wondered how micro-organisms looks like? Come join us in this lab session where we are going to studie the world through a microscope.</p>
-                <a href="#"><i class="fa fa-search"></i></a>
-                <p>Age: 10+</p>
+                <div>
+                    <h4>The world through a microscope</h4>
+                    <p>Feb 2, 2022</p>
+                    <p>Ever wondered how micro-organisms looks like? Come join us in this lab session where we are going to studie the world through a microscope.</p>
+                    <a href="#"><i class="fa fa-search"></i></a>
+                    <p>Age: 10+</p>
+                </div>
             </div>
-            <div>
+            <div class="events">
                 <img src="images/cosmology_small6.jpg" alt="Dinosaur skeleton"/>
-                <h5>The birth of the earth</h5>
-                <p>Every Saturday at 12:00, 2022</p>
-                <p>Do you know how old the earth is or how the earth came to life? The fantastic Mr. Rob is going to explain everything when he enters the planetarium with his spectacular new show "The birth of the earth".</p>
-                <a href="#"><i class="fa fa-search"></i></a>
-                <p>Age: 7+</p>
+                <div>
+                    <h4>The birth of the earth</h4>
+                    <p>Every Saturday at 12:00, 2022</p>
+                    <p>Do you know how old the earth is or how the earth came to life? The fantastic Mr. Rob is going to explain everything when he enters the planetarium with his spectacular new show "The birth of the earth".</p>
+                    <a href="#"><i class="fa fa-search"></i></a>
+                    <p>Age: 7+</p>
+                </div>
             </div>
-            <div>
+            <div class="events">
                 <img src="images/cosmology_small7.jpg" alt="Dinosaur skeleton"/>
-                <h5>Dinoworld</h5>
-                <p>Every half hour, 2022</p>
-                <p>Travel back in time and meet the creatures who did not survive.</p>
-                <a href="#"><i class="fa fa-search"></i></a>
-                <p>Age: All</p>
+                <div>
+                    <h4>Dinoworld</h4>
+                    <p>Every half hour, 2022</p>
+                    <p>Travel back in time and meet the creatures who did not survive.</p>
+                    <a href="#"><i class="fa fa-search"></i></a>
+                    <p>Age: All</p>
+                </div>
             </div>
         </section>
     </main>
     <footer>
-        <section>
+        <section class="footer_section1">
             <div>
                 <h2>Opening hours</h2>
                 <p>Monday: Closed</p>
@@ -117,7 +126,7 @@
                 <a href="#"><i class="fa fa-snapchat-square fa-10x"></i>Snapchat</a>
               </div>
         </section>
-        <section>
+        <section class="footer_section2">
             <p>&copy 2022 Community Science Museum All Rights Reserved</p>
         </section>
     </footer>

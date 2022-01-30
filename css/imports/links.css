@@ -1,8 +1,12 @@
 /* Links */
 a {
-  font-size: 1.5em;
+  font-size: 1em;
   text-decoration: none;
   color: #fff;
+}
+
+a i {
+  padding-left: 10px;
 }
 
 .active {
@@ -10,7 +14,7 @@ a {
 }
 
 .cta {
-  font-size: 1.5em;
+  font-size: 1em;
   background-color: hsl(0, 0%, 100%, 0.1);
   backdrop-filter: blur(1rem);
   padding: 10px 50px;
@@ -24,8 +28,12 @@ a:hover {
   text-decoration: underline;
 }
 
+a i:hover {
+  text-decoration: underline;
+}
+
 .cta:hover {
-  font-size: 1.5em;
+  font-size: 1em;
   color: #041a59;
   background-color: #fff;
   padding: 10px 50px;

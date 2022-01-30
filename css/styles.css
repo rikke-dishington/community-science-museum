@@ -8,8 +8,8 @@
 }
 
 body {
-  font-family: "Didact Gothic";
-  background-color: blueviolet;
+  font-family: "Noto Sans", sans-serif;
+  background-image: url(/images/background.jpeg);
   background-size: cover;
 }
 
@@ -24,39 +24,40 @@ p {
 }
 
 h1 {
-  font-size: 4em;
-  font-weight: bold;
+  font-size: 3.5em;
+  font-weight: bolder;
 }
 
 h2 {
   font-size: 3em;
+  font-weight: bold;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1em;
+  font-weight: normal;
   letter-spacing: 0.2em;
 }
 
 h4 {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 p {
   font-size: 1em;
+  font-weight: normal;
 }
 
 /* Header */
 header {
-  background-color: hsl(0, 0%, 100%, 0.1);
-  backdrop-filter: blur(1rem);
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .logo_img {
-  width: 30%;
-  margin: 0px 50px;
+  width: 20%;
+  padding: 10px 0px 0px 50px;
 }
 
 nav {
@@ -79,3 +80,78 @@ img {
 }
 
 /* Events */
+
+.events_section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding: 100px 50px;
+}
+
+.events_section h2 {
+  grid-column: -1/1;
+}
+
+.events_section img {
+  border-radius: 10% 10% 0% 0%;
+}
+
+.events {
+  background-color: hsl(0, 0%, 100%, 0.1);
+  backdrop-filter: blur(1rem);
+  border-radius: 10%;
+}
+
+.events div {
+  margin: -4px 0px;
+  padding: 20px;
+}
+
+.events div > * {
+  padding: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+}
+
+footer h2 {
+  font-size: 2em;
+}
+
+footer p,
+footer a {
+  font-size: 1em;
+}
+
+.footer_section1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding: 50px 50px 0px 50px;
+}
+
+.footer_section1 div {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_section1 h2 {
+  margin-bottom: 15px;
+}
+
+.footer_section1 div > * {
+  padding: 5px 0px;
+}
+
+.footer_section1 i {
+  font-size: 1.5em;
+  padding-right: 10px;
+  padding-left: 0px;
+}
+
+.footer_section2 {
+  text-align: center;
+  padding: 20px;
+}
