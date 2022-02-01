@@ -9,7 +9,7 @@
 
 body {
   font-family: "Noto Sans", sans-serif;
-  background-image: url(/images/background.jpeg);
+  background: linear-gradient(#5505a6, #290773, #041a59, #0a58bf, black);
   background-size: cover;
 }
 
@@ -61,7 +61,8 @@ header {
 }
 
 nav {
-  margin: 0px 50px 0px 0px;
+  margin-right: 50px;
+  padding: 20px 0px;
 }
 
 nav ul {
@@ -70,7 +71,30 @@ nav ul {
 
 nav li {
   display: inline-block;
-  padding: 0px 20px 0px 20px;
+  position: relative;
+  padding: 0px 40px 0px 40px;
+}
+
+nav ul li ul {
+  background-color: hsl(0, 0%, 100%, 0.1);
+  backdrop-filter: blur(1rem);
+  position: absolute;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+nav ul li ul li {
+  padding: 20px;
+}
+
+nav ul li:hover > ul,
+nav ul li:focus > ul,
+nav ul li ul:hover,
+nav ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
 }
 
 /* Images */
@@ -85,7 +109,7 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
-  padding: 100px 50px;
+  padding: 50px 50px 100px 50px;
 }
 
 .events_section h2 {
@@ -112,8 +136,17 @@ img {
 }
 
 /* Footer */
+
+/*
 footer {
-  background-color: black;
+  background-color: hsl(0, 0%, 0%, 0.5);
+  box-shadow: 0 0 10px black, 0 0 40px black, 0 0 60px black;
+}
+
+*/
+
+footer {
+  border-top: black solid 0.1em;
 }
 
 footer h2 {

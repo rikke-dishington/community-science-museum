@@ -15,12 +15,10 @@ a i {
 
 .cta {
   font-size: 1em;
-  background-color: hsl(0, 0%, 100%, 0.1);
-  backdrop-filter: blur(1rem);
+  color: #5505a6;
+  background-color: #fff;
   padding: 10px 50px;
-  border: #fff 0.1em solid;
-  border-radius: 2em;
-  transition: all 0.3s ease;
+  border-radius: 1.5em;
 }
 
 /* Hover */
@@ -33,11 +31,9 @@ a i:hover {
 }
 
 .cta:hover {
-  font-size: 1em;
-  color: #041a59;
   background-color: #fff;
-  padding: 10px 50px;
-  border: #fff 0.1em solid;
-  border-radius: 2em;
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
   transition: all 0.3s ease;
 }
+
+/*  background-color: hsl(0, 0%, 100%, 0.1); */
