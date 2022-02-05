@@ -1,2 +1,19 @@
 :root {
+  --font: "Roboto";
+  --color-text: #fff;
+  --color-background: linear-gradient(
+    #5505a6,
+    #290773,
+    #041a59,
+    #0a58bf,
+    black
+  );
+  --color-background-transparent: hsl(0, 0%, 100%, 0.1);
+  --color-background-gradient: linear-gradient(
+    hsl(0, 0%, 100%, 0),
+    hsl(0, 0%, 100%, 0.5),
+    hsl(0, 0%, 100%, 0.8)
+  );
+  --color-background-blur: blur(1rem);
+  --color-background-blur-light: blur(0.1rem);
 }
