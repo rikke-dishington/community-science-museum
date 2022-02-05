@@ -1,6 +1,11 @@
 :root {
   --font: "Roboto";
-  --color-text: #fff;
+  --color-blue-dark: #041a59;
+  --color-blue-light: #0a58bf;
+  --color-purple-dark: #290773;
+  --color-purple-light: #5505a6;
+  --color-white: #fff;
+  --color-black: black;
   --color-background: linear-gradient(
     #5505a6,
     #290773,

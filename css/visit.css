@@ -13,22 +13,6 @@
   margin: 10px 100px 10px 0px;
 }
 
-.home_section2 {
-  padding: 100px 50px;
-}
-
-.home_section2 > * {
-  flex: 1;
-}
-
-.home_section2_content {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
-  margin: 100px auto;
-  gap: 50px;
-}
-
 .home_section2_content h3 {
   font-size: 2em;
   font-weight: bold;

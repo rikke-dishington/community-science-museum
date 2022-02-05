@@ -19,7 +19,7 @@ h2,
 h3,
 h4,
 p {
-  color: var(--color-text);
+  color: var(--color-white);
   margin: 0px;
 }
 
@@ -112,7 +112,7 @@ nav ul li ul:focus {
 }
 
 .search input[type="text"] {
-  color: var(--color-text);
+  color: var(--color-white);
   padding: 5px;
   border-radius: 25px;
   border: none;
@@ -122,7 +122,7 @@ nav ul li ul:focus {
 .search button {
   background-color: hsl(0, 0%, 0%, 0);
   font-size: 1em;
-  color: var(--color-text);
+  color: var(--color-white);
   border: none;
   cursor: pointer;
 }
@@ -131,6 +131,23 @@ nav ul li ul:focus {
 img {
   border-radius: 10%;
   width: 100%;
+}
+
+/* Grid section */
+.home_section2 {
+  padding: 50px 50px;
+}
+
+.home_section2 > * {
+  flex: 1;
+}
+
+.home_section2_content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin: 100px auto;
+  gap: 50px;
 }
 
 /* Events */
@@ -172,8 +189,9 @@ img {
 /* Footer */
 
 footer {
-  border-top: black solid 0.1em;
-  box-shadow: 0 0 10px black, 0 0 40px black, 0 0 60px black;
+  border-top: var(--color-black) solid 0.1em;
+  box-shadow: 0 0 10px var(--color-black), 0 0 40px var(--color-black),
+    0 0 60px var(--color-black);
 }
 
 footer h2 {

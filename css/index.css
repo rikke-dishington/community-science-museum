@@ -15,22 +15,6 @@
   margin: 5px 10px 50px 0px;
 }
 
-.home_section2 {
-  padding: 50px 50px;
-}
-
-.home_section2 > * {
-  flex: 1;
-}
-
-.home_section2_content {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
-  margin: 100px auto;
-  gap: 50px;
-}
-
 .home_section2_content h4 {
   margin: 10px 0px 50px 0px;
 }

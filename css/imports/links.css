@@ -2,7 +2,7 @@
 a {
   font-size: 1em;
   text-decoration: none;
-  color: #fff;
+  color: var(--color-white);
 }
 
 a i {
@@ -15,8 +15,8 @@ a i {
 
 .cta {
   font-size: 1em;
-  color: #5505a6;
-  background-color: #fff;
+  color: var(--color-purple-light);
+  background-color: var(--color-white);
   padding: 10px 50px;
   border-radius: 1.5em;
 }
@@ -31,9 +31,8 @@ a i:hover {
 }
 
 .cta:hover {
-  background-color: #fff;
-  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+  background-color: var(--color-white);
+  box-shadow: 0 0 10px var(--color-white), 0 0 20px var(--color-white),
+    0 0 40px var(--color-white);
   transition: all 0.3s ease;
 }
-
-/*  background-color: hsl(0, 0%, 100%, 0.1); */
