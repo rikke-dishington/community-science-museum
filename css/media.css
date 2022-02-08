@@ -1,0 +1,43 @@
+@media (min-width: 600px) {
+  /* Home Page */
+  .home_section1 {
+    flex-direction: row;
+  }
+
+  /* Home and Visit */
+  .home_section2_content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Events */
+  .event_section_content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Footer */
+  .footer_section1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  /* Home Page */
+  .home_section1 {
+    flex-direction: row;
+  }
+
+  /* Home and Visit */
+  .home_section2_content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Events */
+  .event_section_content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Footer */
+  .footer_section1 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
