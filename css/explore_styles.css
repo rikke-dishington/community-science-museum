@@ -1,22 +1,4 @@
-/* Information section */
-
-.section1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 100px 50px;
-}
-
-.section1 > * {
-  flex: 1;
-}
-
-.section1 p {
-  margin: 10px 100px 10px 0px;
-}
-
 /* Favorite section */
-
 .section2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
