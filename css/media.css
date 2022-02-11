@@ -36,10 +36,6 @@
     margin: 100px 50px;
   }
 
-  .home_section2_content h4 {
-    margin: 10px 100px 50px 0px;
-  }
-
   /* Grid section */
   .home_section2 {
     margin: 50px 50px;
@@ -113,5 +109,10 @@
 
   header label {
     display: none;
+  }
+
+  /* Home Page */
+  .home_section2_content h4 {
+    margin: 10px 100px 50px 0px;
   }
 }
