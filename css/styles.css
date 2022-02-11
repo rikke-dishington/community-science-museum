@@ -24,12 +24,12 @@ p {
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 3em;
   font-weight: bolder;
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: bold;
 }
 
@@ -60,7 +60,7 @@ header {
 
 .logo {
   width: 50%;
-  padding-left: 50px;
+  padding-left: 10px;
 }
 
 nav {
@@ -121,7 +121,7 @@ nav ul li ul:focus {
 }
 
 header label {
-  margin-right: 20px;
+  margin-right: 10px;
   color: var(--color-white);
   font-size: 1.5em;
 }
@@ -143,7 +143,7 @@ img {
 /* Grid section */
 .home_section2 {
   display: grid;
-  padding: 50px 50px;
+  margin: 50px 10px;
 }
 
 .home_section2 h2 {
@@ -152,17 +152,16 @@ img {
 
 .home_section2_content {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(1, 1fr);
   align-items: center;
-  margin: 100px auto;
+  margin: 50px auto;
   gap: 50px;
 }
 
 /* Events */
-
 .event_section {
   display: grid;
-  padding: 50px 50px;
+  margin: 50px 10px;
 }
 
 .event_section h2 {
@@ -225,7 +224,7 @@ footer a {
   display: grid;
   grid-template-columns: 1fr;
   gap: 50px;
-  padding: 50px 50px 0px 50px;
+  margin: 50px 10px;
 }
 
 .footer_section1 div {
