@@ -50,44 +50,44 @@ p {
 
 /* Header */
 header {
+  width: 100%;
+  margin: auto;
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: space-between;
 }
 
 .logo {
-  display: flex;
-}
-
-.logo_img {
   width: 50%;
   padding-left: 50px;
 }
 
 nav {
-  margin-right: 50px;
+  flex: 1;
+  display: none;
+  position: fixed;
+  top: 100px;
+  background-color: var(--color-background-transparent);
+  backdrop-filter: var(--color-background-blur);
+  right: 0px;
 }
 
 nav ul {
-  padding: 0px;
-}
-
-nav li,
-.search {
-  display: inline-block;
-  position: relative;
+  padding: 20px 10px;
 }
 
 nav li {
-  padding: 0px 40px 0px 40px;
+  display: block;
+  padding: 20px 10px;
 }
 
 nav ul li ul {
-  margin: 10px;
+  top: 0px;
+  right: 214px;
   background-color: var(--color-background-transparent);
   backdrop-filter: var(--color-background-blur);
   position: absolute;
-  left: 0;
   visibility: hidden;
   opacity: 0;
   transition: all 0.5s ease;
@@ -105,12 +105,6 @@ nav ul li ul:focus {
   opacity: 1;
 }
 
-/* Search bar */
-
-.search {
-  padding-left: 40px;
-}
-
 .search input[type="text"] {
   color: var(--color-white);
   padding: 5px;
@@ -125,6 +119,18 @@ nav ul li ul:focus {
   color: var(--color-white);
   border: none;
   cursor: pointer;
+}
+
+header label {
+  margin-right: 20px;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
 }
 
 /* Images */

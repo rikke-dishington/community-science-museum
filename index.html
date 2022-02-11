@@ -13,12 +13,12 @@
   </head>
   <body>
       <header>
-          <div class="logo">
-            <a href="index.html"><img src="images/logo.png" alt="Community Science Museum Logo" class="logo_img"></a>
-          </div>
+        <a href="index.html"><img src="images/logo.png" alt="Community Science Museum Logo" class="logo"></a>
+        <label for="hamburger-menu"><i class="fa fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu">
         <nav>
           <ul>
-            <li><a href="#">Exhibitions</a>
+            <li><a href="#">Exhibitions<i class="fa fa-chevron-right"></i></a>
                 <ul>
                     <li><a href="cosmology.html">Cosmology</a></li>
                     <li><a href="evolution.html">Evolution</a></li>
@@ -27,12 +27,12 @@
             </li>
             <li><a href="events.html">Events</a></li>
             <li><a href="visit.html">Visit</a></li>
-            <div class="search">
+            <li class="search">
                 <form action="#">
                   <input type="text" placeholder="Search..." name="search">
                   <button type="submit"><i class="fa fa-search"></i></button>
                 </form>
-              </div>
+              </li>
           </ul>
         </nav>
       </header>
