@@ -24,7 +24,7 @@
   backdrop-filter: var(--color-background-blur-light);
   border-radius: 0% 0% 10% 10%;
   margin-top: 50%;
-  height: 250px;
+  height: 280px;
 }
 
 .card_content h4 {

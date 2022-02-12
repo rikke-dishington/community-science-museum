@@ -47,7 +47,7 @@
   }
 
   .card_content {
-    height: 350px;
+    height: 400px;
   }
 
   /* Explore section */
@@ -67,6 +67,10 @@
 
   .event_section_content {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .event_items {
+    height: 380px;
   }
 
   /* Footer */
@@ -185,5 +189,9 @@
   /* Section 2 (used on home and visit) */
   .section2_content h4 {
     margin: 10px 100px 50px 0px;
+  }
+
+  .event_items {
+    height: 300px;
   }
 }
