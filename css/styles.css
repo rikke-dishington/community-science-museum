@@ -191,7 +191,7 @@ img {
 
 .event_section_content {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(1, 1fr);
   align-items: center;
   margin: 100px auto;
   gap: 50px;
@@ -204,6 +204,7 @@ img {
 .event_items {
   display: flex;
   flex-direction: column;
+  height: 300px;
   background: linear-gradient(
     hsl(0, 0%, 100%, 0.1),
     hsl(0, 0%, 100%, 0.5),

@@ -21,4 +21,9 @@
   );
   --color-background-blur: blur(1rem);
   --color-background-blur-light: blur(0.1rem);
+  --color-background-gradient2: linear-gradient(
+    hsl(0, 0%, 100%, 0),
+    hsl(0, 0%, 100%, 0.5),
+    hsl(0, 0%, 100%, 0.8)
+  );
 }
