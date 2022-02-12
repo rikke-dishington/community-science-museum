@@ -13,9 +13,7 @@
 .card1,
 .card2,
 .card3 {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover;
   border-radius: 10%;
 }
 
@@ -24,7 +22,7 @@
   backdrop-filter: var(--color-background-blur-light);
   border-radius: 0% 0% 10% 10%;
   margin-top: 70%;
-  height: 280px;
+  height: 400px;
 }
 
 .card_content h4 {

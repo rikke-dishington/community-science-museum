@@ -46,9 +46,16 @@
     margin: 100px 50px;
   }
 
+  .card1,
+  .card2,
+  .card3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
   .card_content {
-    margin-top: 70%;
-    height: 400px;
+    margin-top: 50%;
+    height: 450px;
   }
 
   /* Explore section */
@@ -110,8 +117,7 @@
   }
 
   .card_content {
-    margin-top: 90%;
-    height: 370px;
+    height: 450px;
   }
 
   /* Explore section */
@@ -197,6 +203,11 @@
   }
 
   .event_items {
+    height: 300px;
+  }
+
+  /* Favorite section */
+  .card_content {
     height: 300px;
   }
 }
