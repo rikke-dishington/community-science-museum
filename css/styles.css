@@ -65,7 +65,7 @@ header {
 
 nav {
   display: none;
-  position: fixed;
+  position: absolute;
   top: 100px;
   background-color: var(--color-background-transparent);
   backdrop-filter: var(--color-background-blur);
@@ -84,8 +84,7 @@ nav li {
 nav ul li ul {
   top: 0px;
   right: 214px;
-  background-color: var(--color-background-transparent);
-  backdrop-filter: var(--color-background-blur);
+  background-color: var(--color-white);
   position: absolute;
   visibility: hidden;
   opacity: 0;
@@ -94,6 +93,10 @@ nav ul li ul {
 
 nav ul li ul li {
   padding: 20px;
+}
+
+nav ul li ul li a {
+  color: var(--color-purple-light);
 }
 
 nav ul li:hover > ul,

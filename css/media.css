@@ -188,6 +188,8 @@
   nav ul li ul {
     display: flex;
     flex-direction: column;
+    background-color: var(--color-background-transparent);
+    backdrop-filter: var(--color-background-blur);
     top: 50px;
     right: 400px;
     left: 0px;
@@ -195,6 +197,10 @@
 
   header label {
     display: none;
+  }
+
+  nav ul li ul li a {
+    color: var(--color-white);
   }
 
   /* Section 2 (used on home and visit) */
