@@ -39,6 +39,15 @@ All photos are purchased through Adobe Stock and Shutterstock. All icons are col
 
 ## Support
 
-Contributions, issues, and feature requests are welcome! Please open a pull request before you make any changes.
+Contributions, issues, and feature requests are welcome! Please fork the repo and submit a pull request before you make any changes.
+
+### Installing
+
+Clone the forked repo:
+
+```bash
+$ git clone https://github.com/YOUR-USERNAME/community-science-museum
+```
+
 
 Give a ⭐️ if you like this project!
