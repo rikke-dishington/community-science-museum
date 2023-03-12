@@ -2,22 +2,22 @@
 
 ![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
+## Table of Content
+- [Description] (#description)
+- [Built With] (#built-with)
+- [Links] (#links)
+- [Author] (#author)
+- [Licenses] (#licenses)
+- [Support] (#support)
+
 ## Description
 
 In this project I have created a website for an interactive science museum called the Community Science Museum. Their target audience is primary and middel school children and families. The goal for the site is to appear informative and engaging and encourage views to visit the museum. 
 
-## Table of Content
-- Description
-- Built With
-- Links
-- Author
-- Acknowledgments
-- Support
-
 ## Built With
 
-- [HTML](https://reactjs.org/)
-- [CSS](https://getbootstrap.com)
+- HTML
+- CSS
 
 ## Links
 
@@ -59,12 +59,17 @@ npm run start
 - [Profile](https://github.com/rikke-dishington/Rikke-dishington)
 - [Website](https://glowing-creponne-2e2b07.netlify.app/)
 
-## Acknowledgments
+## Licenses
 
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+All photos are purchased through Adobe Stock and Shutterstock.
+
 
 ## Support
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+
+Contributions, issues, and feature requests are welcome!
+Please open a pull request 
+
+Here you can detail any information you want to provide regarding contributing to the project. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
 
 Contributions, issues, and feature requests are welcome!
 
