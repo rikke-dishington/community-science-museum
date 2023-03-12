@@ -12,7 +12,7 @@
 
 ## Description
 
-In this project I have created a website for an interactive science museum called the Community Science Museum. Their target audience is primary and middel school children and families. The goal for the site is to appear informative and engaging and encourage views to visit the museum. 
+In this project I have created a website for an interactive science museum called the Community Science Museum. Their target audience is primary and middel school children and families. The goal for the site is to appear informative and engaging and encourage viewers to visit the museum. 
 
 ## Built With
 
