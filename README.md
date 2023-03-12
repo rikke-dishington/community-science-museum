@@ -4,7 +4,7 @@
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+In this project I have created a website for an interactive science museum called the Community Science Museum. Their target audience is primary and middel school children and families. The goal for the site is to appear informative and engaging and encourage views to visit the museum. 
 
 ## Table of Content
 - Description
@@ -16,19 +16,13 @@ Add a more detailed description of what your project entails and set out to do.
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
 - [HTML](https://reactjs.org/)
 - [CSS](https://getbootstrap.com)
 
 ## Links
 
 - [Repo](https://github.com/rikke-dishington/community-science-museum "<Community Science Museum > Repo")
-
 - [Live](<https://silly-swirles-3ed29f.netlify.app/> "Live View")
-
-- [Bugs](https://github.com/Rohit19060/<project-name>/issues "Issues Page")
-
 
 ## Getting Started
 
@@ -62,8 +56,8 @@ npm run start
 
 **Rikke Dishington**
 
-[Profile](https://github.com/rikke-dishington/Rikke-dishington)
-[Website](https://glowing-creponne-2e2b07.netlify.app/)
+- [Profile](https://github.com/rikke-dishington/Rikke-dishington)
+- [Website](https://glowing-creponne-2e2b07.netlify.app/)
 
 ## Acknowledgments
 
