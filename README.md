@@ -3,12 +3,12 @@
 ![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
 ## Table of Content
-* [Description] (#description)
-* [Built With] (#built-with)
-* [Links] (#links)
-* [Author] (#author)
-* [Licenses] (#licenses)
-* [Support] (#support)
+* [Description](#description)
+* [Built With](#built-with)
+* [Links](#links)
+* [Author](#author)
+* [Licenses](#licenses)
+* [Support](#support)
 
 ## Description
 
@@ -22,7 +22,7 @@ In this project I have created a website for an interactive science museum calle
 ## Links
 
 - [Repo](https://github.com/rikke-dishington/community-science-museum "<Community Science Museum > Repo")
-- [Live](<https://silly-swirles-3ed29f.netlify.app/> "Live View")
+- [Live](https://silly-swirles-3ed29f.netlify.app "Live View")
 
 ## Getting Started
 
@@ -57,7 +57,7 @@ npm run start
 **Rikke Dishington**
 
 - [Profile](https://github.com/rikke-dishington/Rikke-dishington)
-- [Website](https://glowing-creponne-2e2b07.netlify.app/)
+- [Website](https://glowing-creponne-2e2b07.netlify.app)
 
 ## Licenses
 
