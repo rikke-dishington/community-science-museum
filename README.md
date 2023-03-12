@@ -33,7 +33,7 @@ In this project I have created a website for an interactive science museum calle
 
 ## Licenses
 
-All photos are purchased through Adobe Stock and Shutterstock.
+All photos are purchased through Adobe Stock and Shutterstock. All icons are collected from Font Awesome.
 
 
 ## Support
