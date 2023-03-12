@@ -1,6 +1,6 @@
 # Semester Project 1 - Community Science Museum
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![communitysciencemuseum](https://user-images.githubusercontent.com/85433495/224537609-a9d3b880-0867-4ebf-8d2e-f7ac6d24a87e.png)
 
 ## Table of Content
 * [Description](#description)
