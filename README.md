@@ -18,6 +18,7 @@ In this project I have created a website for an interactive science museum calle
 
 - HTML
 - CSS
+- Netlify
 
 ## Links
 
