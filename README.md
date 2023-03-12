@@ -66,11 +66,6 @@ All photos are purchased through Adobe Stock and Shutterstock.
 
 ## Support
 
-Contributions, issues, and feature requests are welcome!
-Please open a pull request 
-
-Here you can detail any information you want to provide regarding contributing to the project. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
-
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcome! Please open a pull request before you make any changes.
 
 Give a ⭐️ if you like this project!
