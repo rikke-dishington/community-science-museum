@@ -3,12 +3,12 @@
 ![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
 ## Table of Content
-- [Description] (#description)
-- [Built With] (#built-with)
-- [Links] (#links)
-- [Author] (#author)
-- [Licenses] (#licenses)
-- [Support] (#support)
+* [Description] (#description)
+* [Built With] (#built-with)
+* [Links] (#links)
+* [Author] (#author)
+* [Licenses] (#licenses)
+* [Support] (#support)
 
 ## Description
 
